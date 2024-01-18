@@ -1,0 +1,130 @@
+html,body{
+    font-size: 18px;
+    font-family:"Hanken Grotesk";
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    margin-right: 0px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+}
+.imgspan{
+    margin-left: 0px;
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+   
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#s{
+    flex-wrap: wrap;
+}
+#con1{
+    text-align: center;
+    padding: 21px;
+    border-radius: 30px;
+    background-color:hsl(241, 81%, 54%);
+    color: white;
+    padding-bottom: 45px;
+}
+#con2{
+    background-color: hsl(0, 0%, 100%);
+    padding-right: 40px;
+    box-shadow: 14px 30px 40px -20px hsl(241, 100%, 89%) ;
+    border-radius: 0px 40px 40px 0;
+
+}
+#sum{
+    padding-left: 30px;
+    text-align: initial;
+}
+.box{
+    
+    display: flex ;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+    
+}
+.mr-12px{
+    margin-right: 12px;
+}
+
+#number{
+    margin: 30px 45px;
+   
+    border-radius: 50%;
+    padding: 45px;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+#num{
+    font-size: 75px;
+    font-weight: 600;
+}
+#para{
+   width:257px;
+   margin: auto;
+}
+.fade{
+    color: hsl(241, 100%, 89%);
+}
+
+
+@media (max-width:425px){
+    body{
+        margin: 0px;
+        font-size: 14px;
+        display:block;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size:16px;
+    }
+    #number{
+       
+        margin: 0px 100px;
+        padding: 25px;
+        border-radius: 50%;
+        background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    }
+    #con1{
+        padding: 30px;
+        padding-bottom:30px;
+        margin-bottom:20px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    #num{
+        font-weight: 800;
+        font-size: 56px;
+    }
+    #con2{
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container1{
+        width:363px;
+    }
+}
+
+

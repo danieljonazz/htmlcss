@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container1" id="con1">
+      <h2 class="fade">Your Result</h2>
+      <div id="number">
+        <div id="num">76</div>
+        <span class="fade">of 100</span>
+      </div>
+
+      <h1>Great</h1>
+      <p class="fade" id="para" >You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="container1" id="con2">
+      
+      <h2 id="sum">Summary</h2>
+    
+      <div class="box" style="background-color:  hsl(0, 100%, 67%, 0.1); height: 50px">
+        <span class="imgspan" style="color: hsl(0, 100%, 67%); font-weight: 600;"><img src="./assets/images/icon-reaction.svg" alt="Flash icon">
+        Reaction</span>
+        <span class="mr-12px"><span style="font-weight: 600;">80</span> <span style="color: hsla(359, 100%, 0%, 0.3); font-weight: 800;">/ 100</span></span>
+      </div>
+    
+      <div class="box" style="background-color: hsl(39, 100%, 56%, 0.1); height: 50px;" >
+        <span class="imgspan" style="color: hsl(39, 100%, 56%); font-weight: 600;"><img src="./assets/images/icon-memory.svg" alt="Brain icon">
+        Memory</span>
+        <span class="mr-12px"><span style="font-weight: 600;">92</span><span style="color: hsla(359, 100%, 0%, 0.3); font-weight: 800;">/ 100</span></span>
+      </div >
+    
+      <div class="box" style="background-color:  hsl(166, 100%, 37%, 0.1); height: 50px">
+        <span class="imgspan" style="color:  hsl(166, 100%, 37%) ;font-weight: 600;"><img src="./assets/images/icon-verbal.svg" alt="chat icon">
+        Verbal</span>
+        <span class="mr-12px"><span  style="font-weight: 600;">61 </span><span style="color: hsla(359, 100%, 0%, 0.3); font-weight: 800;">/ 100</span></span>
+      </div>
+    
+      <div class="box" style="background-color:  hsl(234, 85%, 45%, 0.1); height: 50px">
+        <span class="imgspan" style="color:  hsl(234, 85%, 45%); font-weight: 600;"><img src="./assets/images/icon-visual.svg" alt="Eye icon">
+        Visual</span>
+        <span class="mr-12px"><span  style="font-weight: 600;">72</span> <span style="color: hsla(359, 100%, 0%, 0.3); font-weight: 800;">/ 100</span></span>
+      </div>
+    
+      <button style="width: 246px; border-radius: 30px; padding: 13px 10px; background-color: hsl(241, 81%, 54%);
+      border: none; color: white;     position: relative;left: 13px;width: 274px;margin-top: 30px; padding: 20px; margin-bottom:60px; font-size: 18px;">
+      Continue</button>
+      
+    </div>
+  </div>
+
+  
+  
+  <div class="attribution" id="s">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Chibuike Daniel Okoroafor</a>.
+  </div>
+</body>
+</html>
